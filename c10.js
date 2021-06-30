@@ -9,6 +9,7 @@ let rrGif = document.getElementById("gif")
 let select = document.getElementById("select_m")
 let selectDiv = document.getElementById("select")
 let linkDiv = document.getElementById("link_m")
+let msg = document.getElementById("msg")
 
 let link = "https://youtu.be/dQw4w9WgXcQ"
 
@@ -39,6 +40,7 @@ function firstTimeUserVisit() {
 
 function notFirstTimeUserVisit() {
     rrGif.style.display = "block"
+    msg.innerHTML = "Ha! You've been rickrolled! Click the link now to enter your Google Classroom (promise it'll work this time)"
 }
 
 function onSelectTagSelected() {
