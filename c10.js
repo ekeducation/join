@@ -1,6 +1,6 @@
 // Congratulations!
 // You are smart enough to decode my message, dumbass.
-// Here's your prize: {https://raw.githubusercontent.com/praanto/Classroom-Rickroll/master/raw/video.gif}
+// Here's your prize: {https://raw.githubusercontent.com/ekeducation/join/main/video.gif}
 
 let rickrollButton = document.getElementById("rickroll")
 let mMain = document.getElementById("main_m")
