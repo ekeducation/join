@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Stream v2</title>
+    <link rel="stylesheet" href="./c10.css">
+</head>
+<body>
+    <div class="main" id="main_m">
+        <img src="./Logo.svg" width="200px" style="margin-bottom: 20px;">
+        <div class="full-width center-text" style="font-size: xx-large; font-weight: bold; margin-bottom: 30px;">EkEducation Google Classroom Code</div>
+        
+        <div class="link main" id="select">
+            <div class="full-width center-text" id="msg">Select your class</span>...</div>
+            <select name="select_m_n" id="select_m" style="font-size: larger; margin-top: 10px;" onchange="onSelectTagSelected()" >
+                <option value="n">--</option>
+                <option value="c9">Class 9</option>
+                <option value="c0">O Level (Class 10)</option>
+                <option value="as">A Level</option>
+            </select>
+        </div>
+        <div class="link main" id="link_m" style="display: none;">
+            <div class="full-width center-text" id="msg">Click below to join your classroom</span>...</div>
+            <button id="rickroll" class="rickroll material-button">Join class</button>
+        </div>
+        <img src="./misfit.gif" id="gif" style="margin-top: 20px; display: none;"></img>
+        </div>
+    <script src="./c10.js"></script>
+</body>
+</html>
