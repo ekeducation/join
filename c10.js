@@ -18,6 +18,7 @@ rickrollButton.onclick = () => {
     window.localStorage.setItem("isFirstTime", "false")
     notFirstTimeUserVisit()
     window.open(link)
+    location.reload()
 }
 
 let parse = window.localStorage.getItem("isFirstTime")
