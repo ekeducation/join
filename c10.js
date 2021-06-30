@@ -40,7 +40,7 @@ function firstTimeUserVisit() {
 
 function notFirstTimeUserVisit() {
     rrGif.style.display = "block"
-    msg.innerHTML = "Ha! You've been rickrolled! Click the link now to enter your Google Classroom (promise it'll work this time)"
+    msg.innerHTML = "Ha! You've been rickrolled! Select your grade below and click 'Join Class' to, you know, join class (promise it'll work this time)."
 }
 
 function onSelectTagSelected() {
