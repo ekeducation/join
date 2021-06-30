@@ -37,6 +37,10 @@ body {
   display: none;
 }
 
+img {
+  pointer-events: none;
+}
+
 .material-button {
   border: 0;
   border-radius: 4px;
