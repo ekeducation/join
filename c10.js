@@ -31,7 +31,7 @@ if (mIsFirstTime === false) {
 }
 
 let random = Math.floor(Math.random() * 10);
-if (random < 3) {
+if (random < 1) {
     rrGif.src = "./video.gif"
 }
 
